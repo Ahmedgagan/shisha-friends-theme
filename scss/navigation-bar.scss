@@ -1,0 +1,25 @@
+@import "variables";
+
+.navigation-container {
+  .category-breadcrumb {
+    background-color: $transparent-background;
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+    border: 1px solid var(--primary);
+    border-right: none;
+    padding: 0.5em 0;
+    .combo-box-header {
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+  #navigation-bar {
+    background-color: $transparent-background;
+    border-top-right-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    border: 1px solid var(--primary);
+    border-left: none;
+    padding: 0.5em 0;
+  }
+}

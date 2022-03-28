@@ -1,0 +1,44 @@
+$transparent-background: rgba($color: $primary, $alpha: 0.24);
+$border-radius: 1em;
+$border-color: #dddddd69;
+
+
+$primary-very-low: mix(
+  $color-1: $primary,
+  $color-2: $secondary,
+  $weight: 20%,
+);
+$primary-low: mix(
+  $color-1: $primary,
+  $color-2: $secondary,
+  $weight: 30%,
+);
+$primary-low-mid: mix(
+  $color-1: $primary,
+  $color-2: $secondary,
+  $weight: 50%,
+);
+$primary-medium: mix(
+  $color-1: $primary,
+  $color-2: $secondary,
+  $weight: 65%,
+);
+$primary-high: mix(
+  $color-1: $primary,
+  $color-2: $secondary,
+  $weight: 80%,
+);
+$primary-very-high: mix(
+  $color-1: $primary,
+  $color-2: $secondary,
+  $weight: 95%,
+);
+
+:root {
+  --primary-very-low: #{$primary-very-low};
+  --primary-low: #{$primary-low};
+  --primary-low-mid: #{$primary-low-mid};
+  --primary-medium: #{$primary-medium};
+  --primary-high: #{$primary-high};
+  --primary-very-high: #{$primary-very-high};
+}

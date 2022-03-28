@@ -1,0 +1,39 @@
+@import "variables";
+
+.replies-section li,
+.topics-section li,
+.links-section li {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-sub-section {
+  background-color: $transparent-background;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+  padding: 1.5em;
+  width: calc(50% - 4em);
+
+  ul {
+    max-width: 100%;
+  }
+
+  li {
+    border-left: none;
+    padding: 1em 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $border-color;
+    }
+  }
+}
+
+.top-section.most-liked-section {
+  display: flex;
+  .top-sub-section {
+
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+}

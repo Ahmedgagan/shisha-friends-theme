@@ -1,0 +1,40 @@
+@import "variables";
+
+.category-boxes {
+  .category-box {
+    border: none;
+    .category-box-inner {
+      border: 1px solid;
+      border-color: var(--primary);
+      border-radius: $border-radius;
+      background-color: $transparent-background;
+    }
+
+    .category-details {
+      .category-box-heading {
+        .parent-box-link {
+          h3 {
+            text-align: left;
+            font-weight: 600;
+            margin-bottom: 0.5em;
+          }
+          h3:before {
+            content: "";
+            width: 16px;
+            height: 16px;
+            border-radius: 8px;
+            margin-right: 0.25em;
+            display: inline-flex;
+            background-color: var(--category-color);
+          }
+        }
+      }
+
+      .description {
+        color: var(--primary);
+        opacity: 0.8;
+        text-align: left;
+      }
+    }
+  }
+}

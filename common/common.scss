@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900);
+@import "topic-list";
+@import "navigation-bar";
+@import "variables";
+@import "category-boxes";
+@import "topic-view";
+@import "user-summary";
+
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+button,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.d-editor-textarea-wrapper.in-focus,
+.select-kit.multi-select.is-expanded .multi-select-header,
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn),
+.select-kit.single-select .select-kit-header:not(.btn):focus,
+.select-kit.single-select .select-kit-header:not(.btn):active
+.d-editor-textarea-wrapper, .select-kit-header,
+.nav-pills>li>a {
+  border-radius: $border-radius;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.form-vertical .control-label {
+  font-family: "Poppins";
+}
+
+.boxed.white, .user-main .about.collapsed-info .details, .user-content {
+  background-color: transparent;
+}
+
+body {
+  background-image: url($bg);
+}
+
+.nav-pills>li>a:hover {
+  color: var(--primary);
+  background-color: #257466;
+}
+
+.btn-default, .btn-primary, .nav-pills>li a.active {
+  border: 2px solid $transparent-background !important;
+  box-shadow: 0 4px #257466;
+  background-color: #39B29C;
+  border-radius: $border-radius;
+  color: var(--primary);
+
+  .d-icon {
+    color: var(--primary);
+  }
+}
+
+.admin-controls nav {
+  border-radius: $border-radius;
+}
+
+.discourse-no-touch .btn-default:hover, .btn-primary:hover {
+  background-color: #257466;
+  color: var(--primary);
+
+  .d-icon {
+    color: var(--primary);
+  }
+}
+
+img.avatar {
+  border-radius: 0.5em;
+}
+
+.d-header {
+  background: linear-gradient(0deg, #2C045F -423.61%, #0D021D 1281.25%);
+}
+
+.badge-card {
+  border-radius: $border-radius;
+  background-color: $transparent-background;
+  border-color: $border-color;
+}
+
+.custom-footer {
+  background-color: #5c407e;
+  .flexbox {
+    color: var(--primary);
+
+    .first-box .blurb, .third-box .social .social-link .d-icon {
+      color: var(--primary);
+      opacity: 0.7;
+    }
+  }
+
+  .footer-section-link-wrapper a, .third-box .small-link {
+    color: var(--primary);
+    opacity: 0.7;
+  }
+}

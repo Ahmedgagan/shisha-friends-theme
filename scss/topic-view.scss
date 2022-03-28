@@ -1,0 +1,72 @@
+@import "variables";
+
+@media screen and (min-width: 1000px) {
+  #topic-title {
+    width: 800px;
+  }
+
+  .topic-area {
+    width: 830px;
+  }
+}
+
+#topic-title {
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  border: 1px solid $border-color;
+  border-bottom: none;
+  background-color: $transparent-background;
+  margin-bottom: 0;
+  padding: 1em;
+}
+
+.topic-area {
+  border: 1px solid $border-color;
+  border-top: none;
+  background-color: $transparent-background;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+
+  .row {
+    padding: 1em;
+    border-top: 1px solid $border-color;
+  }
+}
+
+.topic-body, .topic-avatar, .post-notice, .topic-status-info, .topic-timer-info {
+  border: none;
+}
+
+.topic-map {
+  background-color: $transparent-background;
+  border-color: $border-color;
+  border-radius: $border-radius;
+
+  h4 {
+    color: var(--primary);
+    opacity: 0.6;
+  }
+
+  .buttons .btn {
+    padding: 5px;
+    border-radius: $border-radius;
+    margin-right: 1em;
+    margin-top: 1em;
+    height: 30px !important;
+    align-self: center;
+  }
+
+  .map {
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    border-top: 1px solid $border-color;
+  }
+
+  section:not(:first-child) {
+    border-color: $border-color;
+  }
+}
+
+.names span a {
+  color: var(--primary);  
+}

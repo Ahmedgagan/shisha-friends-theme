@@ -1,0 +1,21 @@
+{
+  "about_url": null,
+  "license_url": null,
+  "assets": {
+    "bg": "assets/background_image.svg",
+    "banner_image": "assets/banner_image.svg"
+  },
+  "name": "Shisha Friends Theme",
+  "color_schemes": {
+    "Shisha Friends": {
+      "primary": "FFFFFF",
+      "secondary": "2C045F",
+      "header_primary": "FFFFFF",
+      "header_background": "2C045F",
+      "tertiary": "F65C4E",
+      "quaternary": "257466",
+      "highlight": "EE5035"
+    }
+  },
+  "components": ["https://github.com/discourse/Discourse-easy-footer", "https://github.com/Ahmedgagan/shisha-friends-layout"]
+}
