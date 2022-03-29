@@ -39,9 +39,11 @@ input[type="color"]:focus,
 .select-kit.multi-select.is-expanded .multi-select-header,
 .select-kit.single-select.is-expanded .select-kit-header:not(.btn),
 .select-kit.single-select .select-kit-header:not(.btn):focus,
-.select-kit.single-select .select-kit-header:not(.btn):active
-.d-editor-textarea-wrapper, .select-kit-header,
-.nav-pills>li>a {
+.select-kit.single-select
+  .select-kit-header:not(.btn):active
+  .d-editor-textarea-wrapper,
+.select-kit-header,
+.nav-pills > li > a {
   border-radius: $border-radius;
 }
 
@@ -56,7 +58,9 @@ h6,
   font-family: "Poppins";
 }
 
-.boxed.white, .user-main .about.collapsed-info .details, .user-content {
+.boxed.white,
+.user-main .about.collapsed-info .details,
+.user-content {
   background-color: transparent;
 }
 
@@ -64,15 +68,17 @@ body {
   background-image: url($bg);
 }
 
-.nav-pills>li>a:hover {
+.nav-pills > li > a:hover {
   color: var(--primary);
   background-color: #257466;
 }
 
-.btn-default, .btn-primary, .nav-pills>li a.active {
+.btn-default,
+.btn-primary,
+.nav-pills > li a.active {
   border: 2px solid $transparent-background !important;
   box-shadow: 0 4px #257466;
-  background-color: #39B29C;
+  background-color: #39b29c;
   border-radius: $border-radius;
   color: var(--primary);
 
@@ -85,7 +91,8 @@ body {
   border-radius: $border-radius;
 }
 
-.discourse-no-touch .btn-default:hover, .btn-primary:hover {
+.discourse-no-touch .btn-default:hover,
+.btn-primary:hover {
   background-color: #257466;
   color: var(--primary);
 
@@ -99,7 +106,7 @@ img.avatar {
 }
 
 .d-header {
-  background: linear-gradient(0deg, #2C045F -423.61%, #0D021D 1281.25%);
+  background: linear-gradient(0deg, #2c045f -423.61%, #0d021d 1281.25%);
 }
 
 .badge-card {
@@ -113,13 +120,15 @@ img.avatar {
   .flexbox {
     color: var(--primary);
 
-    .first-box .blurb, .third-box .social .social-link .d-icon {
+    .first-box .blurb,
+    .third-box .social .social-link .d-icon {
       color: var(--primary);
       opacity: 0.7;
     }
   }
 
-  .footer-section-link-wrapper a, .third-box .small-link {
+  .footer-section-link-wrapper a,
+  .third-box .small-link {
     color: var(--primary);
     opacity: 0.7;
   }

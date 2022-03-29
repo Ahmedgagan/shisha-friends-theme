@@ -33,7 +33,11 @@
   }
 }
 
-.topic-body, .topic-avatar, .post-notice, .topic-status-info, .topic-timer-info {
+.topic-body,
+.topic-avatar,
+.post-notice,
+.topic-status-info,
+.topic-timer-info {
   border: none;
 }
 
@@ -68,5 +72,5 @@
 }
 
 .names span a {
-  color: var(--primary);  
+  color: var(--primary);
 }

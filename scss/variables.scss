@@ -1,7 +1,9 @@
-$transparent-background: rgba($color: $primary, $alpha: 0.24);
+$transparent-background: rgba(
+  $color: $primary,
+  $alpha: 0.24,
+);
 $border-radius: 1em;
 $border-color: #dddddd69;
-
 
 $primary-very-low: mix(
   $color-1: $primary,

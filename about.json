@@ -17,5 +17,8 @@
       "highlight": "EE5035"
     }
   },
-  "components": ["https://github.com/discourse/Discourse-easy-footer", "https://github.com/Ahmedgagan/shisha-friends-layout"]
+  "components": [
+    "https://github.com/discourse/Discourse-easy-footer",
+    "https://github.com/Ahmedgagan/shisha-friends-layout"
+  ]
 }

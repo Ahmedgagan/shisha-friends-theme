@@ -7,6 +7,6 @@ export default Component.extend({
 
   @discourseComputed("router.currentRouteName")
   shouldShow(currentRouteName) {
-    return currentRouteName.indexOf("discovery") > -1
-  }
+    return currentRouteName.indexOf("discovery") > -1;
+  },
 });
