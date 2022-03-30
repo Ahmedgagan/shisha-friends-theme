@@ -7,6 +7,34 @@
   flex-direction: column;
 }
 
+.stats-section {
+  background-color: $transparent-background;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+  padding: 1.5em;
+
+  li:not(.user-summary-stat-outlet) {
+    background-color: $transparent-background;
+    border-radius: $border-radius;
+    border: 1px solid $border-color;
+    padding: 1em;
+  }
+
+  li .user-stat,
+  li a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label {
+    color: var(--primary);
+  }
+
+  li.linked-stat a {
+    padding: 0;
+  }
+}
+
 .top-sub-section {
   background-color: $transparent-background;
   border-radius: $border-radius;
