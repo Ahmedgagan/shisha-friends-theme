@@ -35,6 +35,14 @@
   }
 }
 
+.top-section.badges-section,
+.top-sub-section.badges-section {
+  background-color: $transparent-background;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+  padding: 1.5em;
+}
+
 .top-sub-section {
   background-color: $transparent-background;
   border-radius: $border-radius;
@@ -61,6 +69,43 @@
   .top-sub-section {
     &:not(:last-child) {
       margin-right: 1em;
+    }
+  }
+}
+
+.user-main .about .details {
+  background-color: transparent;
+
+  img.avatar {
+    border-radius: 50%;
+  }
+  .secondary {
+    border: none;
+    margin-top: 0;
+    padding-bottom: 36px;
+    dl {
+      margin-left: 140px;
+      display: flex;
+
+      div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 1.5em;
+
+        dt {
+          color: var(--primary);
+          opacity: 0.6;
+          font-size: $font-down-1;
+          margin-top: 0.25em;
+        }
+
+        dd button {
+          box-shadow: none;
+          background-color: transparent;
+          padding: 0;
+          border: none !important;
+        }
+      }
     }
   }
 }

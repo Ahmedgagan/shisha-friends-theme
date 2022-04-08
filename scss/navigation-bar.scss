@@ -22,8 +22,14 @@
     background-color: $transparent-background;
     border-top-right-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     border: 1px solid var(--primary);
     border-left: none;
     padding: 0.5em 0;
+  }
+
+  .navigation-controls {
+    align-items: center;
   }
 }
