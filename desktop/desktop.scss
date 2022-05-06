@@ -1,2 +1,11 @@
 @import "navigation-bar";
 @import "user-summary";
+
+.nav-pills > li > a {
+  font-weight: 300;
+}
+
+.nav-pills > li a.active {
+  font-weight: 500;
+  padding: 10px 20px;
+}

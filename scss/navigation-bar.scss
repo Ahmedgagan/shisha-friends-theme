@@ -1,13 +1,17 @@
 @import "variables";
 
 .navigation-container {
+  .navigation-container .category-breadcrumb .combo-box-header {
+    font-size: var(--font-up-1);
+  }
+
   .category-breadcrumb {
     background-color: $transparent-background;
     border-top-left-radius: $border-radius;
     border-bottom-left-radius: $border-radius;
     border: 1px solid var(--primary);
     border-right: none;
-    padding: 0.5em 0;
+    padding: 0.5em 0 calc(0.5em + 4px) 0;
     .combo-box-header {
       border: none;
       background-color: transparent;
@@ -26,7 +30,7 @@
     border-bottom-left-radius: 0;
     border: 1px solid var(--primary);
     border-left: none;
-    padding: 0.5em 0;
+    padding: 0.5em 0 calc(0.5em + 4px) 0;
   }
 
   .navigation-controls {

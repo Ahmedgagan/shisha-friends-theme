@@ -7,7 +7,6 @@ export default Component.extend({
 
   @discourseComputed("router.currentRouteName")
   shouldShow(currentRouteName) {
-
     return (
       window.location.pathname === "/" ||
       window.location.pathname === "/categories"
