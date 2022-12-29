@@ -1,40 +1,66 @@
 $transparent-background: rgba(
   $color: $primary,
-  $alpha: 0.14,
+  $alpha: 0.24,
 );
 $border-radius: 10px;
-$border-color: #dddddd69;
+$border-color: #ffffff;
 
-$primary-very-low: mix(
-  $color-1: $primary,
-  $color-2: $secondary,
-  $weight: 20%,
-);
-$primary-low: mix(
-  $color-1: $primary,
-  $color-2: $secondary,
-  $weight: 30%,
-);
-$primary-low-mid: mix(
-  $color-1: $primary,
-  $color-2: $secondary,
-  $weight: 50%,
-);
-$primary-medium: mix(
-  $color-1: $primary,
-  $color-2: $secondary,
-  $weight: 65%,
-);
-$primary-high: mix(
-  $color-1: $primary,
-  $color-2: $secondary,
-  $weight: 80%,
-);
-$primary-very-high: mix(
-  $color-1: $primary,
-  $color-2: $secondary,
-  $weight: 95%,
-);
+// $primary-very-low: mix(
+//   $color-1: $primary,
+//   $color-2: $secondary,
+//   $weight: 20%,
+// );
+// $primary-low: mix(
+//   $color-1: $primary,
+//   $color-2: $secondary,
+//   $weight: 30%,
+// );
+// $primary-low-mid: mix(
+//   $color-1: $primary,
+//   $color-2: $secondary,
+//   $weight: 50%,
+// );
+// $primary-medium: mix(
+//   $color-1: $primary,
+//   $color-2: $secondary,
+//   $weight: 65%,
+// );
+// $primary-high: mix(
+//   $color-1: $primary,
+//   $color-2: $secondary,
+//   $weight: 80%,
+// );
+// $primary-very-high: mix(
+//   $color-1: $primary,
+//   $color-2: $secondary,
+//   $weight: 95%,
+// );
+
+$primary-very-low: #3f1279;
+$primary-low: #582c91;
+$primary-low-mid: #6f48a3;
+$primary-medium: #8a6bb4;
+$primary-high: #a38cc2;
+$primary-very-high: #c3b6d5;
+
+$primary-very-low: #7b56b5;
+$primary-low: #8d6dbf;
+$primary-low-mid: #b9a6d6;
+$primary-medium: #b9a6d6;
+$primary-high: #d0c4e2;
+$primary-very-high: #e4deed;
+
+$primary-very-low: #ac78ff;
+$primary-low: #b98ffd;
+$primary-low-mid: #dbc4fc;
+$primary-medium: #dcc5fe;
+$primary-high: #ebdeff;
+$primary-very-high: #f5eefe;
+
+$secondary-low: #e4deed;
+$secondary-medium: #b9a6d6;
+$secondary-high: #d0c4e2;
+$secondary-very-high: #e4deed;
 
 :root {
   --primary-very-low: #{$primary-very-low};
@@ -43,4 +69,8 @@ $primary-very-high: mix(
   --primary-medium: #{$primary-medium};
   --primary-high: #{$primary-high};
   --primary-very-high: #{$primary-very-high};
+  --secondary-low: #{$secondary-low};
+  --secondary-medium: #{$secondary-medium};
+  --secondary-high: #{$secondary-high};
+  --secondary-very-high: #{$secondary-very-high};
 }

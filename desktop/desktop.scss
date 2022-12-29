@@ -1,11 +1,29 @@
 @import "navigation-bar";
 @import "user-summary";
 
-.nav-pills > li > a {
-  font-weight: 300;
+.nav-pills > li a.active {
+  font-weight: 600;
 }
 
-.nav-pills > li a.active {
-  font-weight: 500;
-  padding: 10px 20px;
+.nav-pills {
+  background-color: $transparent-background;
+  padding: 12px;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+}
+
+.topic-body {
+  width: 100%;
+}
+
+.d-header .login-button {
+  margin-left: 14px;
+}
+
+.d-header .login-button, .d-header .sign-up-button {
+  padding: 7px 24px;
+}
+
+.user-content-wrapper {
+  grid-template-columns: 1.2fr 5fr;
 }

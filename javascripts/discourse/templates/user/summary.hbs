@@ -127,8 +127,8 @@
                   {{category-link category allowUncategorized="true" hideParent=false}}
                 </div>
                 <div class="category-stats">
-                    <span>Topics · {{user-summary-category-search user=user category=category count=category.topic_count}}</span>
-                    <span>Replies · {{user-summary-category-search user=user category=category count=category.post_count}}</span>
+                    <span class="category-stat">Topics <span class="seprator">·</span> {{user-summary-category-search user=user category=category count=category.topic_count}}</span>
+                    <span class="category-stat">Replies <span class="seprator">·</span> {{user-summary-category-search user=user category=category count=category.post_count}}</span>
                 </div>
               </li>
             {{/each}}

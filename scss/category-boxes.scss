@@ -2,13 +2,15 @@
 
 .category-boxes {
   .category-box {
-    width: 31.3%;
+    width: calc((100% / 3) - 16px);
+    margin: 12px;
     border: none;
     .category-box-inner {
       border: 1px solid;
       border-color: var(--primary);
       border-radius: $border-radius;
       background-color: $transparent-background;
+      padding: 24px 32px;
     }
 
     .category-details {
@@ -32,10 +34,36 @@
       }
 
       .description {
-        color: var(--primary);
-        opacity: 0.8;
+        color: rgba($color: $primary, $alpha: 0.8);
         text-align: left;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+      }
+
+      .subcategories .subcategory {
+        margin-bottom: 0;
       }
     }
   }
+
+  .category-box:nth-child(3n-2) {
+    margin-left: 0;
+  }
+
+  .category-box:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+.badge-wrapper.box span.badge-category-bg, .badge-wrapper.box span.badge-category-parent-bg {
+  position: inherit;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.badge-wrapper.box span.badge-category-parent-bg+.badge-category-bg {
+  width: 10px;
 }
